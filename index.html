@@ -3,9 +3,39 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <!-- Bootstrap v4.5.0 -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
   </head>
   <body>
+    <div class="container">
+      <div class="row mt-5">
+      <div class="col col-md-6 offset-3">
     <h1 id="title">freeCodeCamp Survey Form</h1>
+
     <p id="description">Thank you for taking the time to help us improve the platform</p> 
+    <form id="survey-form">
+
+      <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name"  >
+      </div>
+
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" >
+      </div>
+
+
+      <div class="form-group">
+        <label id="number-label" for="number">Age (optional)</label>
+        <input type="number" class="form-control" id="number" required min="10" max="100" placeholder="Enter your age" />
+      </div>
+
+
+    </form>
+    </div>
+    </div>
+    </div>
   </body>
 </html>
