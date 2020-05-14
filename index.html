@@ -13,7 +13,7 @@
       <div class="col col-md-6 offset-3">
     <h1 id="title">freeCodeCamp Survey Form</h1>
 
-    <p id="description">Thank you for taking the time to help us improve the platform</p> 
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
     <form id="survey-form">
 
       <div class="form-group">
@@ -31,6 +31,118 @@
         <label id="number-label" for="number">Age (optional)</label>
         <input type="number" class="form-control" id="number" required min="10" max="100" placeholder="Enter your age" />
       </div>
+
+      <div class="form-group">
+          <label for="dropdown">Which option best describes your current role?</label>
+          <select class="form-control" id="dropdown">
+            <option>select Current role</option>
+            <option>Student</option>
+            <option>Full Time Job</option>
+            <option>Full Time Learner</option>
+            <option>Prefer not to Say</option>
+            <option>Others</option>
+          </select>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="recommend" id="exampleRadios1" value="option1" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Definitely
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="recommend" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Maybe
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="recommend" id="exampleRadios2" value="option2">
+          <label class="form-check-label" for="exampleRadios2">
+            Not sure
+          </label>
+        </div>
+
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+          <label class="form-check-label" for="defaultCheck1">
+            Front-end Projects
+          </label>
+        </div>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Back-end Projects
+  </label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Data Visualization
+  </label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+Challenges
+</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Open Source Community
+  </label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+Gitter help rooms
+</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Videos
+  </label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+City Meetups
+</label>
+</div>
+
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+  <label class="form-check-label" for="defaultCheck1">
+    Wiki
+  </label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+Forum
+</label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+<label class="form-check-label" for="defaultCheck1">
+Additional Courses
+</label>
+</div>
+
+<div class="form-group">
+    <label for="exampleFormControlTextarea1">Any comments or suggestions?</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Enter your comment here..."></textarea>
+  </div>
+
+<div>
+<button class="btn btn-primary" type="submit" id="submit">Submit form</button>
+</div>
 
 
     </form>
