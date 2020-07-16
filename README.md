@@ -30,7 +30,7 @@ Applied Responsive Web Design Projects.
 - Linkedin: [linkedin](https://www.linkedin.com/in/bbosa-muhamood-06845576/)
 
 👤 **Okusa Robert**
-- Github: [@bmuhamood](https://github.com/okusarobert)
+- Github: [@okusarobert](https://github.com/okusarobert)
 
 ## 🤝 Contributing
 
