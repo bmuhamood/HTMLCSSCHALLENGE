@@ -36,7 +36,7 @@ Applied Responsive Web Design Projects.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/bmuhamood/microversecolab/issues).
+Feel free to check the [issues page](https://github.com/bmuhamood/Surveyform-V1/issues).
 
 ## Show your support
 
